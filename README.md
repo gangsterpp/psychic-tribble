@@ -1,3 +1,6 @@
 # b1c_test_app
 
-A new Flutter project.
+## How to
+
+* flutter pub get
+* flutter run

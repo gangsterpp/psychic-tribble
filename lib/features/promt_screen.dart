@@ -140,10 +140,6 @@ class _PromtScreenState extends State<PromtScreen> {
                                 context.read<ImageGeneratorBloc>().add(
                                   ImageGeneratePromtEvent(controller.text),
                                 );
-                                // Save to history
-                                context.read<StorageBloc>().add(
-                                  controller.text,
-                                );
                               },
                         style: ElevatedButton.styleFrom(
                           backgroundColor: controller.text.isEmpty
